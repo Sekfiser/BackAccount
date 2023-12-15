@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab2.Bank">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Account">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Lab2.Account.TransactionType">
+        <TypeIdentifier>
+          <NewMemberFileName>Account.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="Lab2.Account.Transaction">
+        <TypeIdentifier>
+          <NewMemberFileName>Account.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Lab2.Account.Withdrawal">
+        <TypeIdentifier>
+          <NewMemberFileName>Account.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Lab2.Account.Payment">
+        <TypeIdentifier>
+          <NewMemberFileName>Account.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Lab2.Account.Receipt">
+        <TypeIdentifier>
+          <NewMemberFileName>Account.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
